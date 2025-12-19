@@ -1,6 +1,6 @@
 # KIPROP-ANTHONY-KIPTOO-ENE211-0046-2024-STUCTURED-PROGRAMMING
 
-1. Difference Between a Normal Variable and a Pointer
+## 1. Difference Between a Normal Variable and a Pointer
 
 ## NORMAL VARIABLE
 What it stores: An actual value (e.g., integer, float, character).
@@ -23,7 +23,7 @@ int *ptr = &x;  // ptr stores address of x
 printf("%d", *ptr);  // Indirectly reads value 10 via address
 *ptr = 20;  // Indirectly modifies x to 20
 
-2. Variable vs Pointer Declaration and Definition
+## 2. Variable vs Pointer Declaration and Definition
    
 ## Variable Declaration & Definition
 int num;        // Declaration (allocates memory for an integer)
@@ -47,7 +47,7 @@ int value = 42;
 int *pointer = &value;   // & gets address of value, stores in pointer
 int retrieved = *pointer; // * accesses value at stored address (42)
 
-3. Dereferencing a Pointer
+## 3. Dereferencing a Pointer
 
 Meaning
 Dereferencing means accessing the value stored at the memory address contained in a pointer. It "follows" the pointer to the actual data.
