@@ -7,7 +7,7 @@ What it stores: An actual value (e.g., integer, float, character).
 Memory access: Accesses its own memory location directly.
 Reading value: Use the variable name.
 Modifying value: Assign a new value to the variable.
-example
+# example
 int x = 10;  // x stores the value 10 directly
 printf("%d", x);  // Directly reads value 10
 x = 20;  // Directly modifies to 20
