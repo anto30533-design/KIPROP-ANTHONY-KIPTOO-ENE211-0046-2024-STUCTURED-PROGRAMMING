@@ -12,7 +12,7 @@ int x = 10;  // x stores the value 10 directly
 printf("%d", x);  // Directly reads value 10
 x = 20;  // Directly modifies to 20
 
-##POINTER VARIABLE
+## POINTER VARIABLE
 What it stores: The memory address of another variable.
 Memory access: Accesses memory indirectly via the stored address.
 Reading value: Dereference the pointer using *.
@@ -25,17 +25,17 @@ printf("%d", *ptr);  // Indirectly reads value 10 via address
 
 2. Variable vs Pointer Declaration and Definition
    
-##Variable Declaration & Definition
+## Variable Declaration & Definition
 int num;        // Declaration (allocates memory for an integer)
 int num = 5;    // Definition with initialization
 
-##Pointer Declaration & Definition
+## Pointer Declaration & Definition
 int *ptr;               // Declaration: ptr can store address of integer
 int *ptr = NULL;        // Definition: initialized to NULL
 int num = 5;
 int *ptr = &num;        // Definition: stores address of num
 
-##Role of Operators
+## Role of Operators
 * (Asterisk):
 In declaration: int *ptr - declares a pointer
 In expression: *ptr - dereferences (accesses value at address)
@@ -80,7 +80,7 @@ Complexity: Harder to debug than normal variables
 
 6. Call by Value vs Call by Reference
 
-##Call by Value
+## Call by Value
 Mechanism: Copy of data is passed to function
 Original Data: Unchanged outside function
 Memory: New memory allocated for parameter
@@ -96,7 +96,7 @@ int main() {
     return 0;
 }
 
-##Call by Reference
+## Call by Reference
 Mechanism: Address of data is passed to function
 Original Data: Can be modified by function
 Memory: No new memory for actual data
@@ -113,7 +113,7 @@ int main() {
 
 7. Practical Scenarios
 
-##a. When Call by Value Is Preferred
+## a. When Call by Value Is Preferred
 When original data must remain unchanged
 For small data types (int, char, float)
 Safer and simpler logic
@@ -122,7 +122,7 @@ int square(int x) {
     return x * x;
 }
 
-##b. When Call by Reference Is Preferred
+## b. When Call by Reference Is Preferred
 When function must modify original data
 When passing large data structures
 To return multiple values from a function
