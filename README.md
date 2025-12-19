@@ -59,7 +59,7 @@ printf("%d", *p);  // reads value of x (5)
 *p = 15;           // modifies value of x
 printf("%d", x);   // outputs 15
 
-4. When Pointers Are Preferred Over Normal Variables
+## 4. When Pointers Are Preferred Over Normal Variables
    
 Use Case 1: Passing Large Data to Functions
 Avoids copying large structures → improves performance.
@@ -71,14 +71,14 @@ Use Case 2: Dynamic Memory Allocation
 Required when memory size is decided at runtime.
 int *arr = (int *)malloc(5 * sizeof(int));
 
-5. Limitations and Risks of Using Pointers
+## 5. Limitations and Risks of Using Pointers
 
 Dangling pointers: Pointing to freed memory
 Memory leaks: Forgetting to free allocated memory
 Null pointer dereferencing: Causes program crashes
 Complexity: Harder to debug than normal variables
 
-6. Call by Value vs Call by Reference
+## 6. Call by Value vs Call by Reference
 
 ## Call by Value
 Mechanism: Copy of data is passed to function
@@ -111,7 +111,7 @@ int main() {
     return 0;
 }
 
-7. Practical Scenarios
+## 7. Practical Scenarios
 
 ## a. When Call by Value Is Preferred
 When original data must remain unchanged
